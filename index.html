@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>穿越·牛熊</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #ff0000, cyan);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .bull-bear {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .bull, .bear {
+            width: 45%;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .bull {
+            background-color: #ff0000;
+        }
+        .bear {
+            background-color: cyan;
+        }
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    position: fixed; /* 使用 fixed 使其固定在视口 */
+    left: 0; /* 左边缘对齐 */
+    right: 0; /* 右边缘对齐 */
+    bottom: 0; /* 底部对齐 */
+    margin: 0; /* 去掉默认的 margin */
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>穿越·牛熊</h1>
+    <nav>
+        <a href="#bull">牛市</a>
+        <a href="#bear">熊市</a>
+        <a href="#about">关于</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h2>欢迎来到穿越牛熊的世界</h2>
+    <p></p>
+
+    <div class="bull-bear">
+        <div class="bull" id="bull">
+            <h3>牛市</h3>
+            <p>牛市是指市场价格持续上涨的时期，通常伴随着投资者的乐观情绪。</p>
+        </div>
+        <div class="bear" id="bear">
+            <h3>熊市</h3>
+            <p>熊市是指市场价格持续下跌的时期，通常伴随着投资者的悲观情绪。</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 穿越·牛熊</p>
+</footer>
+
+</body>
+</html>
